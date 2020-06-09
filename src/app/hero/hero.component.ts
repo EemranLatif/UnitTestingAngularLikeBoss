@@ -7,7 +7,7 @@ import { Hero } from '../hero';
   styleUrls:  ['./hero.component.css']
 })
 export class HeroComponent {
-  // Imran changes 
+  // Imran changes pushing to Git Hub
   @Input() hero: Hero;
   @Output() delete = new EventEmitter();
 
